@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity website</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+            background-color: ;
+            /* background-color: rgb(242, 240, 237); */
+        }
+        nav{
+            display: flex;
+            gap: 800px;
+        }
+        nav ul{
+            margin-top: 20px;
+            display: flex;
+            gap: 50px;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        a:hover{
+            font-size: 30px;
+            color: cornflowerblue;
+        }
+        a{
+            color: black;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        section{
+            margin-top: 100px;
+            display: flex;
+        }
+        .left{
+            width: 50%;
+            margin-left: 100px;
+            margin-top: 150px;
+           
+        }
+        .left h1{
+            width: 400px;
+            font-size: 50px;
+        }
+        .left p{
+            width: 500px;
+            
+        }
+        .bottom{
+            margin-left: 435px;
+        }
+        button{
+            color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+        }
+        button:hover{
+            font-size: 30px;
+            color: rgb(253, 242, 77);
+        }
+        .mouse{
+            margin-left: 150px;
+            
+        }
+        .green,.yellow{
+            position: absolute;
+            right: 0;
+        }
+        .green{
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellow {
+  width: 30%;
+  bottom: 50px;
+}
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/logo.png?raw=true" alt="">
+        </div>
+        <ul>
+            <li><a href="multipageproject.html">Home</a></li>
+            <li><a href="about.html" >About Us</a></li>
+            <li><a href="contact.html" >Contact us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="left">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/topAngle.png?raw=true" alt="" class="top">
+            <h1>Complete Health Care Solutions for Everyone</h1>
+            <p>
+                We're always available for our Patients with emergen problems. You can
+                easily reach us 24/7. We focused on highest quality.
+              </p>
+              <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/bottomAngle.png?raw=true" alt="" class="bottom">
+              <button>Make Appointment</button>
+              <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/mouse.png?raw=true" alt="" class="mouse">
+        </div>
+        <div class="right">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/greenBox.png?raw=true" alt="" class="green">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/yellowBox.png?raw=true" alt="" class="yellow">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/doctor.png?raw=true" alt="" class="doctor">
+        </div>
+    </section>
+</body>
+</html>

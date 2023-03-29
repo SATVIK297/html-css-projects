@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+ 
+        }
+        body {
+  margin: 0 15vw;
+}
+        nav{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 0;
+        }
+        nav ul{
+            display: flex;
+            gap: 50px;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .nav-right-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            
+        }
+        .nav-right-section button{
+            border-radius: 5px;
+            width: 70px;
+        }
+        a:hover{
+            /* font-size: large; */
+            font-weight: 900;
+        }
+        main{
+            display: flex;
+            align-items: flex-start;
+            margin-top: 30px;
+  position: relative;
+        }
+        .main-img {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
+.on-ear {
+  width: 320px;
+  margin-left: 50px;
+}
+        .main{
+            margin-left: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .main h1{
+            font-size: 70px;
+            position: relative;
+            right: 100px;
+        }
+        .main h3{
+            position: relative;
+            right: 180px;
+            margin-bottom: 40px;
+        }
+        .details{
+            width: 400px;
+            padding-bottom: 40px;
+            position: relative;
+            right: 30px;
+        }
+        
+        .shopping-bag-section {
+  display: flex;
+  position: relative;
+  right: 110px;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+}
+.shopping-bag-section img {
+  width: 15px;
+  background-color: transparent;
+}
+.shopping-bag-section p {
+  margin-bottom: 0;
+  color: white;
+  background-color: transparent;
+}
+.shopping-bag-section span {
+  background-color: transparent;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.specifications{
+    display: flex;
+   
+    margin-top: 50px;
+    position: relative;
+    left: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
+.spec-logo{
+    width: 300px;
+}
+.specification-list{
+    display: flex;
+}
+.specification-list img{
+    scale: 0.8;
+}
+.bluetooth{
+    position: relative;
+    right: 100px;
+    font-weight: 100;
+}
+.bluetooth{
+    position: relative;
+    font-weight: 100;
+    right: 100px;
+}
+.battery{
+    font-weight: 100;
+    position: relative;
+    right: 130px;
+}
+.charger{
+    font-weight: 100;
+    position: relative;
+    right: 120px;
+}
+.mic{
+    position: relative;
+    font-weight: 100;
+    right: 100px;
+}
+.case{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.case-logo{
+    width: 297px;
+}
+
+.case-items{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 100px;
+}
+.info{
+    width: 297px;
+    margin-bottom: 30px;
+}
+.more-info{
+    display: flex;
+    gap: 20px;
+    width:150px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #1e1e21;
+}
+.buy-product{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.product-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.subs{
+    display: flex;
+}
+.subcribe-button{
+    display: flex;
+    po
+}
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/beatsLogo.png?raw=true" alt="logo">       
+        <div class="nav-right-section">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Space</a></li>
+                <li><a href="#">Case</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>            
+                <button>Shop</button>           
+        </div>   
+    </nav>
+    <main>
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/mainImage.png?raw=true" alt="" class="main-img">
+        <div class="main">
+            <img class="on-ear" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/onEar.png?raw=true" alt="">
+            <h1>Beast 3</h1>
+            <h3>Overview</h3>
+            <p class="details">Enjoy award-winning Beats sound with wireless listening freedom and a
+                sleek, streamlined design with comfortable padded earphones,
+                delivering first-rate playback.</p>
+                <div class="shopping-bag-section">
+                    <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    <p>Add to bag</p>
+                    <span>N399K</span>
+                </div>
+        </div>
+    </main>
+    <section class="social-media">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/amazonLogo.png?raw=true" alt="">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/appleLogo.png?raw=true" alt="">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/spotifyLogo.png?raw=true" alt="">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/youtubeLogo.png?raw=true" alt="">
+
+    </section>
+    <section class="specifications">
+        <img class="spec-logo" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/specsLogo.png?raw=true" alt="">
+        <div class="specification-list">
+            <div class="specification-list-items">
+                <div class="bluetooth">
+                    <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/bluetooth.png?raw=true" alt="">
+                    <p>Connection</p>
+                    <p>Bluetooth v2.97</p>
+                </div>
+                <div class="battery">
+                    <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/battery.png?raw=true" alt="">
+                    <p>Battery</p>
+                    <p>Duration 48h</p>
+                </div>
+                <div class="charger">
+                    <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/charger.png?raw=true" alt="">
+                    <p>Load</p>
+                    <p>Fast Charge 4.2-AAC/p>
+                </div>
+                <div class="mic">
+                    <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/mic.png?raw=true" alt="">
+                    <p>Microphone</p>
+                    <p>Supports Apple Siri and Google</p>
+                </div>
+            </div>
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/specsImage.png?raw=true" alt="">
+        </div>
+    </section>
+
+    <section class="case">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/caseLogo.png?raw=true" alt="" class="case-logo">
+        <div class="case-items">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/caseImage.png?raw=true" alt="" class="case-item-img">
+            <div>
+                <p class="info"> With a comfortable and adaptable case so that you can store it
+                    whenever you want, and keep your durability forever.</p>
+                    <p class="more-info">
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/group.png?raw=true" alt="">
+                        More info
+                    </p>
+            </div>
+        </div>
+    </section>
+    <section class="buy-product">
+        <div>
+            <h3>Immense yourself in your music</h3>
+            <p>Buy now , upto 50% off</p>
+            <div>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                <p>Buy Now</p>
+            </div>
+        </div>
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/buyNowSectionImage.png?raw=true" alt="">
+    </section>
+
+    <section class="Product">
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/productLogo.png?raw=true" alt="">
+        <div class="product-items">
+            <div class="product-card">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/black.png?raw=true" alt="">
+                <div class="product-info">
+                    <p>Black <br> <span>N299K</span></p>
+                    <div>
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/redBlack.png?raw=true" alt="">
+                <div class="product-info">
+                    <p>Red Black <br> <span>N399K</span></p>
+                    <div>
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/nightBlack.png?raw=true" alt="">
+                <div class="product-info">
+                    <p>Night Black <br> <span>N499K</span></p>
+                    <div>
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/blue.png?raw=true" alt="">
+                <div class="product-info">
+                    <p>Blue <br> <span>N599K</span></p>
+                    <div>
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/twilightGray.png?raw=true" alt="">
+                <div class="product-info">
+                    <p>Grey <br> <span>N699K</span></p>
+                    <div>
+                        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/shoppingBag.png?raw=true" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Photos/beatsLogo.png?raw=true" alt="">
+
+        <!-- creating the product navigation menu -->
+      <ul>
+        <li><a href="#"style="font-weight: 900;">Products</a></li>
+        <li><a href="#">Headphones</a></li>
+        <li><a href="#">Earphones</a></li>
+        <li><a href="#">Earbuds</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+
+      <!-- creating the support navigation menu -->
+      <ul>
+        <li><a href="#" style="font-weight: 900;">Support</a></li>
+        <li><a href="#">Product Help</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Provides</a></li>
+      </ul>
+      <div class="subscription">
+        <div class="subs">
+            <input type="email" name="" placeholder="Email" id="">
+            <div class="subcribe-button">
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/rightArrow.png?raw=true" alt="">
+                <p>Subscribe</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/linkedin.png?raw=true" alt="">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/twitter.png?raw=true" alt="">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/instagram.png?raw=true" alt="">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/facebook.png?raw=true" alt="">
+        </div>
+
+      </div>
+      <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Beats/Icons/upArrow.png?raw=true" alt="">
+
+    </footer>
+</body>
+</html>
